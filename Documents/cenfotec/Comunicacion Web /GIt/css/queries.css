@@ -1,0 +1,96 @@
+
+  
+  /* Large Screens */
+  @media only screen and (min-width: 1440px) {
+    .container.menu-container {
+        max-width: 100%;
+        padding: 10px; 
+        display: flex;
+        justify-content: space-around;
+      }
+      
+    .anchor-link img {
+        height: 100px;
+    }
+  
+    .anchor-link p {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    .text-go-menu p{
+        font-size: 20px;
+        color: white;
+    }
+
+
+    .menu-title h2{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-weight:800;
+        font-size: 25px;
+    }
+    
+    .svg-down{
+        height: 20px;
+        color: white;
+    }
+
+    
+
+
+    .categoria-icon{
+      height: 100px;
+  }
+  
+  .categoria-text{
+      color: rgba(0, 0, 0, 0.731);
+      font-weight: 700;
+      font-size: 25px;
+  }
+
+
+  .number-menu{
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .name-menu{
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .photo-menu{
+    height: 150px;
+  }
+
+
+.price-menu{
+  font-size: 17px;
+  padding-left: 15px;
+}
+
+.menu-item{
+  display: flex;
+  align-items: center;
+  left: -5000px;
+}
+
+.red-bar{
+ height: 30px;
+}
+.yellow-bar{
+  height: 30px;
+}
+  }
+  
+    
+
+
+/* For most smartphones in portrait mode */
+@media only screen and (max-width: 480px) {
+     
+    .mcLogoSvg{
+        height: 30%;
+        z-index: 1;
+    }
+}
